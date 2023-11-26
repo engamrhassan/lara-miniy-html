@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\LaravelHtmlMinify;
+namespace dipeshsukhia\LaravelHtmlMinify;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace DipeshSukhia\LaravelHtmlMinify\Middleware;
+namespace dipeshsukhia\LaravelHtmlMinify\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
-use DipeshSukhia\LaravelHtmlMinify\LaravelHtmlMinifyFacade;
+use dipeshsukhia\LaravelHtmlMinify\LaravelHtmlMinifyFacade;
 
 class LaravelMinifyHtml
 {

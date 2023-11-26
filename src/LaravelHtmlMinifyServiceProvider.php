@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\LaravelHtmlMinify;
+namespace dipeshsukhia\LaravelHtmlMinify;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,9 +31,9 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
             return new LaravelHtmlMinifyFacade;
         });
 
-        $this->app['router']->middleware('LaravelMinifyHtml', 'DipeshSukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml');
+        $this->app['router']->middleware('LaravelMinifyHtml', 'dipeshsukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml');
 
-        $this->app['router']->aliasMiddleware('LaravelMinifyHtml', \DipeshSukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
-        $this->app['router']->pushMiddlewareToGroup('web', \DipeshSukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
+        $this->app['router']->aliasMiddleware('LaravelMinifyHtml', \dipeshsukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
+        $this->app['router']->pushMiddlewareToGroup('web', \dipeshsukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
     }
 }

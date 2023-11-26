@@ -34,7 +34,7 @@ php artisan vendor:publish --tag=LaravelHtmlMinify
 
 
 you should add middleware to your web middleware group within your app/Http/Kernel.php file:
-use DipeshSukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml;
+use dipeshsukhia\LaravelHtmlMinify\Middleware\LaravelMinifyHtml;
 LaravelMinifyHtml::class
 
 add in env

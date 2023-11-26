@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DipeshSukhia\\LaravelHtmlMinify\\": "src"
+            "dipeshsukhia\\LaravelHtmlMinify\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DipeshSukhia\\LaravelHtmlMinify\\Tests\\": "tests"
+            "dipeshsukhia\\LaravelHtmlMinify\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DipeshSukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
+                "dipeshsukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
             ],
             "aliases": {
-                "LaravelHtmlMinify": "DipeshSukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
+                "LaravelHtmlMinify": "dipeshsukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
             }
         }
     }
