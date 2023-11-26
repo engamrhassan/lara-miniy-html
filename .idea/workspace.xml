@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e127deaa-e59d-4ae6-945f-2c8bc20f2467" name="Changes" comment="enhancement name">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-html-minify.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaravelHtmlMinify.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelHtmlMinify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaravelHtmlMinifyFacade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelHtmlMinifyFacade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaravelHtmlMinifyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelHtmlMinifyServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Middleware/LaravelMinifyHtml.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Middleware/LaravelMinifyHtml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="e127deaa-e59d-4ae6-945f-2c8bc20f2467" name="Changes" comment="enhancement name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701006510785</updated>
-      <workItem from="1701006511813" duration="795000" />
+      <workItem from="1701006511813" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="enhancement route exclude by exclude routes url no name">
       <option name="closed" value="true" />
@@ -91,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701007305794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="enhancement name">
+      <option name="closed" value="true" />
+      <created>1701007332159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701007332159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
