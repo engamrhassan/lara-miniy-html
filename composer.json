@@ -1,11 +1,11 @@
 {
-    "name": "dipeshsukhia/laravel-html-minify",
+    "name": "bakerysoft/laravel-html-minify",
     "description": "laravel minify html output",
     "keywords": [
-        "dipeshsukhia",
+        "bakerysoft",
         "laravel-html-minify"
     ],
-    "homepage": "https://github.com/dipeshsukhia/laravel-html-minify",
+    "homepage": "https://github.com/bakerysoft/laravel-html-minify",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "dipeshsukhia\\LaravelHtmlMinify\\": "src"
+            "bakerysoft\\LaravelHtmlMinify\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "dipeshsukhia\\LaravelHtmlMinify\\Tests\\": "tests"
+            "bakerysoft\\LaravelHtmlMinify\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "dipeshsukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
+                "bakerysoft\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
             ],
             "aliases": {
-                "LaravelHtmlMinify": "dipeshsukhia\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
+                "LaravelHtmlMinify": "bakerysoft\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
             }
         }
     }

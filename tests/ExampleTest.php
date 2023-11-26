@@ -1,6 +1,6 @@
 <?php
 
-namespace dipeshsukhia\LaravelHtmlMinify\Tests;
+namespace bakerysoft\LaravelHtmlMinify\Tests;
 
 use PHPUnit\Framework\TestCase;
 
