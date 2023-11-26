@@ -17,7 +17,6 @@
     ],
     "require": {
         "php": ">=8.1",
-        "bakerysoft/laravel-html-minify": "^1.0",
         "illuminate/support": "^10.0"
     },
     "require-dev": {
