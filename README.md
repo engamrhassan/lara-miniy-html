@@ -12,7 +12,7 @@ This package helps to minify your project`s html (blade file) output.
 | Laravel                        |                   Package |
 |--------------------------------|--------------------------:|
 | 5.x to 9.x                     |                       2.x |
-| 10.x                           |                       3.x |
+| 10.0 to 11.x                   |                       3.x |
 
 ## Installation
 
