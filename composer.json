@@ -1,17 +1,17 @@
 {
-    "name": "bakerysoft/laravel-html-minify",
+    "name": "mmnow/laravel-html-minify",
     "description": "laravel minify html output",
     "keywords": [
-        "bakerysoft",
+        "mmnow",
         "laravel-html-minify"
     ],
-    "homepage": "https://github.com/bakerysoft/laravel-html-minify",
+    "homepage": "https://github.com/mmnow/laravel-html-minify",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "BakerySoft",
-            "email": "bakerysoft@gmail.com",
+            "name": "mmnow",
+            "email": "mmnow@gmail.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "bakerysoft\\LaravelHtmlMinify\\": "src"
+            "mmnow\\LaravelHtmlMinify\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bakerysoft\\LaravelHtmlMinify\\Tests\\": "tests"
+            "mmnow\\LaravelHtmlMinify\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "bakerysoft\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
+                "mmnow\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider"
             ],
             "aliases": {
-                "LaravelHtmlMinify": "bakerysoft\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
+                "LaravelHtmlMinify": "mmnow\\LaravelHtmlMinify\\LaravelHtmlMinifyFacade"
             }
         }
     }
