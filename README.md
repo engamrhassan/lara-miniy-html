@@ -1,9 +1,9 @@
 # Laravel HTML Minifier
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/bakerysoft/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/bakerysoft/laravel-html-minify)
-[![Build Status](https://img.shields.io/travis/bakerysoft/laravel-html-minify/master.svg?style=flat-square)](https://travis-ci.org/bakerysoft/laravel-html-minify)
-[![Quality Score](https://img.shields.io/scrutinizer/g/bakerysoft/laravel-html-minify.svg?style=flat-square)](https://scrutinizer-ci.com/g/bakerysoft/laravel-html-minify)
-[![Total Downloads](https://img.shields.io/packagist/dt/bakerysoft/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/bakerysoft/laravel-html-minify)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mmnow/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/mmnow/laravel-html-minify)
+[![Build Status](https://img.shields.io/travis/mmnow/laravel-html-minify/master.svg?style=flat-square)](https://travis-ci.org/mmnow/laravel-html-minify)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mmnow/laravel-html-minify.svg?style=flat-square)](https://scrutinizer-ci.com/g/mmnow/laravel-html-minify)
+[![Total Downloads](https://img.shields.io/packagist/dt/mmnow/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/mmnow/laravel-html-minify)
 
 This package helps to minify your project`s html (blade file) output.
 
@@ -19,13 +19,13 @@ This package helps to minify your project`s html (blade file) output.
 You can install the package via composer:
 
 ```bash
-composer require bakerysoft/laravel-html-minify
+composer require mmnow/laravel-html-minify
 ```
 
 ## Sponsor Laravel HTML Minifier on GitHub
 
 [Become a sponsor to Dipesh Sukhia
-](https://github.com/sponsors/bakerysoft).
+](https://github.com/sponsors/mmnow).
 
 ## Usage
 
@@ -34,7 +34,7 @@ php artisan vendor:publish --tag=LaravelHtmlMinify
 
 
 you should add middleware to your web middleware group within your app/Http/Kernel.php file:
-use bakerysoft\LaravelHtmlMinify\Middleware\LaravelMinifyHtml;
+use mmnow\LaravelHtmlMinify\Middleware\LaravelMinifyHtml;
 LaravelMinifyHtml::class
 
 add in env
@@ -72,7 +72,7 @@ If you discover any security related issues, please email dipesh.sukhia@gmail.co
 
 ## Credits
 
-- [Dipesh Sukhia](https://github.com/bakerysoft)
+- [Dipesh Sukhia](https://github.com/mmnow)
 - [All Contributors](../../contributors)
 
 ## License

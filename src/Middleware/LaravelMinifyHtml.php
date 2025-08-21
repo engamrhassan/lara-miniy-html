@@ -1,12 +1,12 @@
 <?php
 
-namespace bakerysoft\LaravelHtmlMinify\Middleware;
+namespace mmnow\LaravelHtmlMinify\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
-use bakerysoft\LaravelHtmlMinify\LaravelHtmlMinifyFacade;
+use mmnow\LaravelHtmlMinify\LaravelHtmlMinifyFacade;
 
 class LaravelMinifyHtml
 {

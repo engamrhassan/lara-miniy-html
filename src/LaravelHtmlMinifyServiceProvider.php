@@ -1,6 +1,6 @@
 <?php
 
-namespace bakerysoft\LaravelHtmlMinify;
+namespace mmnow\LaravelHtmlMinify;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -31,9 +31,9 @@ class LaravelHtmlMinifyServiceProvider extends ServiceProvider
             return new LaravelHtmlMinifyFacade;
         });
 
-        $this->app['router']->middleware('LaravelMinifyHtml', 'bakerysoft\LaravelHtmlMinify\Middleware\LaravelMinifyHtml');
+        $this->app['router']->middleware('LaravelMinifyHtml', 'mmnow\LaravelHtmlMinify\Middleware\LaravelMinifyHtml');
 
-        $this->app['router']->aliasMiddleware('LaravelMinifyHtml', \bakerysoft\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
-        $this->app['router']->pushMiddlewareToGroup('web', \bakerysoft\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
+        $this->app['router']->aliasMiddleware('LaravelMinifyHtml', \mmnow\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
+        $this->app['router']->pushMiddlewareToGroup('web', \mmnow\LaravelHtmlMinify\Middleware\LaravelMinifyHtml::class);
     }
 }

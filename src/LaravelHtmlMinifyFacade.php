@@ -1,6 +1,6 @@
 <?php
 
-namespace bakerysoft\LaravelHtmlMinify;
+namespace mmnow\LaravelHtmlMinify;
 
 use Illuminate\Support\Facades\Facade;
 
